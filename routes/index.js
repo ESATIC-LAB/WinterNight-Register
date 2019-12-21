@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var connection = require("../../enregistrement/bd/connection")
+// var connection = require("../../enregistrement/bd/connection")
 
 
 /* GET home page. */
@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
 	res.render('index', { title: 'Express', host: req.hostname });
 });
 
-
+/*
 
 router.post('/record', function (req, res, next) {
 
@@ -28,5 +28,6 @@ router.post('/record', function (req, res, next) {
 	})
 
 });
+*/
 
 module.exports = router;
