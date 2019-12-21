@@ -263,25 +263,25 @@ a:hover{
     max-width:800px;
 }
 .mw-box .form-control::placeholder {
-    color: #999;
+    color: #888;
 }
 .mw-box .form-control::-moz-placeholder {
-    color: #999;
+    color: #888;
 }
 .mw-box .form-control:-ms-input-placeholder {
-    color: #999;
+    color: #888;
 }
 .mw-box .form-control::-webkit-input-placeholder {
-    color: #999;
+    color: #888;
 }
 .mw-box .form-control {
     border:1px solid #e6e6e6;
     border-radius:4px;
     color:#555;
-    font-size:18px;
+    font-size:16px;
 }
 .mw-box .form-control:focus{
-     border:1px solid #000;
+     border:1px solid #d16461;
      box-shadow:none;
      outline: none;
 }
@@ -309,10 +309,4 @@ a:hover{
     .mw-hide-on-sm{
         display: none !important;
     }
-}
-
-body{
-   background-color: #fff;
-   background-image: url(/images/fond.png);
-   background-size: cover;
 }

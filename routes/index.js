@@ -9,6 +9,10 @@ router.get('/', function (req, res, next) {
 	res.render('index', { title: 'Express', host: req.hostname });
 });
 
+router.get('/parrainage', function (req, res, next) {
+	res.render('parrainage', { title: 'Express', host: req.hostname });
+});
+
 /*
 
 router.post('/record', function (req, res, next) {
